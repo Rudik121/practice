@@ -7,7 +7,7 @@ from flask_ckeditor import CKEditor
 
 app = Flask(__name__)
 Bootstrap(app)
-CKEditor(app)
+CKEditor(app) 
 
 db = yaml.safe_load(open("db.yaml"))
 app.config["MYSQL_HOST"] = db["mysql_host"]
