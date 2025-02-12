@@ -1,0 +1,4 @@
+mysql_host: 'localhost'
+mysql_user: 'q'
+mysql_password: 'q123'
+mysql_db: 'blog_db'  
